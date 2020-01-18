@@ -1,0 +1,6 @@
+test
+ok(142)
+abbc
+abba
+abcc
+test

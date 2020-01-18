@@ -1,0 +1,80 @@
+
+
+Evaluation de l’enseignement
+Bases de données
+
+
+Semestre S3-2019
+
+Sommaire 
+
+
+1.Introduction	3
+2. Contenu pédagogique	4
+3. Support pédagogique	5
+4. Évaluations	6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Introduction
+
+	Suite à la constatation de certains défauts de ce cours, nous avons demandé aux élèves de l’ENIB ce qu’ils pourraient lui reprocher et comment l’améliorer. Cela a été fait via un sondage envoyé à tous les élèves du semestre S3A-2019.
+
+	Nous avons obtenus 57 réponses. Il ressort de la première question qui concernait l’avis général que :
+1 personne s’est dite pleinement satisfaite de l’enseignement de BDD
+19 ont trouvées l’enseignement satisfaisant 
+16 ont trouvées l’enseignement moyennement satisfaisant 
+17 ont trouvées l’enseignement passable 
+3 ont trouvées l’enseignement insatisfaisant
+
+
+2. Contenu pédagogique
+
+	De l’avis général, le cours semble trop axé sur des notions peu utilisées. Outre le ressenti des élèves à ce sujet, certains intervenants ont confirmés que des notions comme l’algèbre relationnelle étaient en réalité peu utilisées dans le monde professionnel. De plus, la manière d’aborder cette partie tout au long du semestre était à l’inverse de ce qu’elle aurait dû être. En effet, la manière générale de raisonner des élèves était de partir d’une requête SQL pour en déduire un calcul en algèbre relationnelle, ceci n’étant pas le but recherché.
+Sans compter que des notions comme GROUP BY ou HAVING qui sont simples à écrire et utiliser en SQL, utilisées dans le projet, étaient complètement absentes du cours d’algèbre.
+Cela rendant impossible l’écriture de notre dossier de conception à l’aide du cours alors que nous n'utilisons que des notions abordées en cours.
+Une intervention de l’enseignant sur cette partie serait possiblement une manière d’aider les élèves à comprendre l’algèbre relationnelle.
+Cependant, il pourrait être intéressant de simplement moins se concentrer sur cette partie semblant moins utilisée pour accorder plus de temps à la préhension des différents outils fournis par SQL et utiles à sa pratique.
+	
+Une autre remarque récurrente est que le cours manque d’exemples et d’exercices. L’assimilation des notions par les élèves se base énormément sur l’étude des systèmes existants et sur la pratique. Ainsi, cette insuffisance engendre des difficultés de compréhension des différents éléments et encourage l’apprentissage par coeur des pratiques courantes. Sans compter que les exemples du cours et les solutions d’exercices ne sont pas commentées. Il serait intéressant et constructif de commenter les grandes lignes du code ou l’utilisation de nouvelles notions afin de détailler leurs actions et de faciliter la compréhension du code.
+
+En matière d’organisation, des notions portant sur les requêtes SQL sont considérées comme acquises et comprises par les élèves alors que celles-ci ne sont abordées que dans le chapitre 2. Ce désordre empêche une bonne compréhension dès le début et rend le but du cours peu clair. Faut-il y voir une explication du langage SQL ou de l’algèbre relationnelle ?
+
+	
+
+3. Support pédagogique
+
+De nombreux élèves ressentent une dépendance vis-à-vis de l’Enibook. Par exemple, alors que nécessaire pour les projets, l’utilisation d’un support autre que l’Enibook (SQL, PostGreSQl, ou associé à du C ou du Python…) n’est pas expliquée. Ainsi, certains élèves auraient souhaités créer et exécuter des fichiers SQL dans un environnement de travail plus standard et utilisé en entreprise.
+Cette dépendance à l’Enibook entraîne l’utilisation exclusive de SQLite qui limite fortement les possibilités du langage SQL (fonction, foreign key…). Il aurait été pertinent d’aborder l’utilisation de ces éléments plus concrètement, en mettant en place l’utilisation de PostgreSQL pour les projets par exemple.
+	Sans aller aussi loin il aurait été intéressant d’explorer les capacités de SQLite avec le traitement des dates ou des énumérations pour ne citer que ces types complexes.
+
+Quant à la mise en forme en elle-même, des points d’ergonomies à reprendre permettraient une utilisation plus aisée de l’outil proposé. 
+En effet, l’arborescence de l’Enibook en l’état actuel est longue. Très longue. Et rechercher un élément précis au milieu de toutes les sous-parties sans pouvoir avoir une vue d’ensemble est un véritable calvaire. Ainsi, proposer une barre de recherche serait un bon moyen d’en améliorer l’ergonomie. Ou plus simplement, permettre l’ouverture de plusieurs sections de l’Enibook au lieu de la situation actuelle qui force celui ouvert à se fermer lors de l’ouverture d’un autre. La suite d’onglets à ouvrir, de clics à enchaîner pour avoir accès à la moindre information participe à cette sensation. 
+Ou tout simplement autoriser l’utilisateur à avoir tous le cours ouvert sur une seule page (par exemple comme sur le cours de PRC de S3 : https://www.enib.fr/~harrouet/s3prc/ qui est en terme d’organisation structurelle, plus pratique à utiliser)
+
+4. Évaluations
+
+Certains élèves trouvent que le fait de rédiger des requêtes SQL sur du papier n’est pas cohérent par rapport à la pédagogie. Les élèves sont encouragés à trouver par eux-même des solutions et à réfléchir. Cependant, les contrôles sur papier ne permettent pas la recherche d’une solution sur les connaissances de base acquises mais forcent un apprentissage par coeur des méthodes d’exécution.
+	Quand bien même il est compréhensible que certaines limites comme l’écriture d’algèbre relationnelle puissent s’opposer à des contrôles sur ordinateurs, il semble possible de créer un système simple permettant de répondre à ce type de questions numériquement et facilement. Que ce soit en prenant un peu de temps pour expliquer le fonctionnement des formules sur libreoffice ou en créant un système simple et ergonomique propre au système d’évaluation de l’ENIB (par exemple dans le style de l’outil de création des arbres de requêtes). Ou plus simplement encore, en mettant une partie du contrôle sur papier et une autre sur ordinateur (même si cela demanderait une bonne organisation des intervenant).
+
+	Si la plupart des étudiants ont appréciés le projet, certains ont pensés qu’il serait bon de revoir l’organisation temporelle de l’enseignement. Le projet nous en apprend autant que les cours, il serait intéressant de commencer celui-ci plus tôt. D’une part cela nous encouragerait à approfondir plus concrètement les notions vues en cours par nous-même en travaillant directement sur le projet. Et d’autre part, cela permettrait une meilleure organisation pour les élèves et un travail plus aboutis au final.
